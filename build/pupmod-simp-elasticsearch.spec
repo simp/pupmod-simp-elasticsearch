@@ -1,7 +1,7 @@
 Summary: ElasticSearch SIMP Puppet Module
 Name: pupmod-simp-elasticsearch
-Version: 2.0.0
-Release: 1
+Version: 2.0.1
+Release: 0
 License: Apache License, Version 2.0
 Group: Applications/System
 Source: %{name}-%{version}-%{release}.tar.gz
@@ -59,6 +59,9 @@ done
 # Post uninstall stuff
 
 %changelog
+* Tue Jul 19 2016 Lucas Yamanishi <lucas.yamanishi@onyxpoint.com> - 2.0.1-0
+- Add default Require to apache_limits() output
+
 * Mon Nov 09 2015 Chris Tessmer <chris.tessmer@onypoint.com> - 2.0.0-1
 - migration to simplib and simpcat (lib/ only)
 
