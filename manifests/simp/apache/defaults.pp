@@ -25,7 +25,7 @@ class elasticsearch::simp::apache::defaults {
       }
     },
     'limits'  => {
-      'defaults'  => [ 'GET', 'POST', 'PUT' ],
+      'defaults'  => [ 'GET', 'POST', 'PUT', 'DELETE' ],
       'hosts'  => {
         '127.0.0.1' => 'defaults',
         "$::fqdn"   => 'defaults'
